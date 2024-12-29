@@ -1,0 +1,2 @@
+# Type Error in TypeScript Function
+This example demonstrates a common type error in TypeScript: passing an argument of the wrong type to a function.  The function `add` expects two numbers, but we're trying to pass a string ("2") as the second argument.  This results in a type error that is caught during compilation, preventing runtime errors. The solution provides a type guard to handle potential string inputs.
